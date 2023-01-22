@@ -1,0 +1,35 @@
+.shape-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 231px;
+    transform: rotateY(180deg);
+}
+
+.shape-divider .shape-fill {
+    fill: var(--secondary-color);
+}
+
+.main-body {
+    background-color: var(--secondary-color);
+}
+
+@media (max-width:850px) {
+    .hide {
+        display: none;
+    }
+
+    .shape-divider {
+        position: relative;
+    }
+}

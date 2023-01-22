@@ -1,0 +1,123 @@
+.hero-inside {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.my-img {
+    max-width: 430px;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.my-img img {
+    height: auto;
+    max-width: 100%;
+}
+
+.txt-btn-container {
+    color: var(--secondary-color);
+    max-width: 45%;
+    margin-top: 10rem;
+}
+
+.txt-btn-container h1 {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.intro {
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 5%;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.btn-icons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+    margin-left: 1.5rem;
+}
+
+.contact-btn{
+    background-color: initial;
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    font-size: 16px;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: var(--accent-color);
+}
+
+.git-in-container{
+    display: flex;
+}
+
+.brands{
+    font-size: 30px;
+    margin: 15px 10px;
+    fill: var(--secondary-color);
+}
+
+.brands:hover{
+    fill: var(--accent-color);
+}
+
+@media (min-width:850px) {
+    .hero-inside {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+    .btn-icons {
+        flex-direction: row;
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width:850px) {
+    .my-img {
+        border-radius: 50%;
+        height: 200px;
+        margin: 0 auto 10px;
+        margin-top: 6rem;
+        overflow: hidden;
+        width: 200px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(18px);
+    }
+
+    .hero-inside {
+        flex-direction: column;
+    }
+
+
+    .txt-btn-container {
+        margin-top: 3rem;
+        max-width: 70%;
+    }
+
+    .txt-btn-container h1 {
+        text-align: center;
+    }
+
+    .btn-icons{
+        margin-left: 0;
+    }
+}
