@@ -163,7 +163,7 @@
     }
 
     .overlay-menu {
-        position: absolute;
+        position: fixed;
         height: 100vh;
         background: var(--secondary-color);
         width: 100vw;
