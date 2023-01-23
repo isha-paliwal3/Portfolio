@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
 
 :root {
-  --primary-color: #011247;
+  --primary-color: #000d33;
   --secondary-color: #fff;
   --accent-color: #048abe;
 }
@@ -17,4 +17,12 @@ body {
   margin: 0;
   background: var(--primary-color);
   font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
 }

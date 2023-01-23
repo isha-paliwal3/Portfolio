@@ -26,7 +26,7 @@ const HeroSection = () => {
                             </a>
                         </div>
                         <div>
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/isha-paliwal-165676222">
                                 <ImLinkedin2 className='brands'/>
                             </a>
                         </div>
